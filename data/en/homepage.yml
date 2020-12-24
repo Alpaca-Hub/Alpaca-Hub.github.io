@@ -1,0 +1,45 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "A machine learning versioning framework"
+  content : ""
+  image : "images/alpaca.png"
+  button:
+   enable : true
+   label : "Start Transforming"
+   link : "https://github.com/Alpaca-Hub"
+
+############################# Feature ############################
+features:
+  enable : true
+  title : "Our Core Features"
+  image : "images/frameworks.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+  - title : "Smoother Workflow"
+    icon : "tf-ion-pull-request"
+    content : "Cell-level code versioning plugin for JupyterLab with Git"
+    
+    # feature item loop
+  - title : "Better Reproducbility"
+    icon : "tf-ion-ios-compose"
+    content : "Automatic hyperparam recording and versioning with SQL DB"
+    
+    # feature item loop
+  - title : "Lower Cost"
+    icon : "tf-ion-social-usd"
+    content : "Data versioning with Git LFS/AWS S3"
+
+############################# promo ############################
+promo:
+  enable : true
+  image : "images/jupyterhub.png"
+  title : "Support the Industry Level Pipeline"
+  content : "We support the industry level pipeline, such as jupyter, with little modification to the existing pipeline."
+############################## Projects ##########################
+projects:
+  enable : true
+  title : "Projects"
+

@@ -1,0 +1,102 @@
+################################### Default Configuration ############################
+baseurl = "https://alpaca-hub.github.io/"
+title = "Alpaca-Hub"
+theme = "vex-hugo"
+# post excert
+summarylength = "20"
+# google analytics
+googleAnalytics = "" # Ex: UA-123-45
+# disable language
+disableLanguages = [] # disable language from here
+
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = false
+
+#################################### Plugins ##########################################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themefisher-font/themefisher-font.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.min.css"
+[[params.plugins.css]]
+link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+
+
+###################################### Navigation ######################################
+
+# homepage section menu
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Projects"
+url = "projects"
+weight = 2
+
+[[menu.main]]
+name = "Blog"
+url = "blog"
+weight = 3
+
+[[menu.main]]
+name = "Github"
+url = "https://github.com/Alpaca-Hub"
+weight = 4
+
+# footer menu
+[[menu.footer]]
+name = "Blog"
+url = "blog"
+weight = 1
+
+[[menu.footer]]
+name = "github"
+url = "https://github.com/Alpaca-Hub"
+weight = 2
+
+[[menu.footer]]
+name = "Licensing"
+url = "privacy-policy"
+weight = 3
+
+
+########################### Default parameters ##########################
+[params]
+logo = ""
+logo_width = "50px"
+# Meta data
+description = "This is meta description"
+author = "alpaca🦙"
+
+# contact form action
+# contact_form_action = "#" # contact form works with https://formspree.io
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+# copyright
+copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)</br> Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/)"
